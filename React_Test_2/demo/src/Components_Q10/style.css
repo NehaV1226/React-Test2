@@ -1,0 +1,75 @@
+.body {
+  margin: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #141414;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: 50vh;
+    width: 100vw; 
+    text-align: center;
+    background: url('https://plus.unsplash.com/premium_photo-1667587245819-2bea7a93e7a1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center/cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(12, 12, 12);
+    padding: 100px 20px;
+  }
+  
+  .projects {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    background: #f9f9f9;
+  }
+  
+  .contact {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact input, .contact textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #141414;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+  

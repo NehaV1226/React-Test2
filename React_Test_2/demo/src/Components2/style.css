@@ -1,0 +1,47 @@
+/* Common Layout for All Pages */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    width: 100vw;   /* Full viewport width */
+    text-align: center;
+    background-color: #f8f9fa; /* Light background */
+}
+
+/* Adjust navbar */
+nav {
+    background: #fcedc6;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+
+/* Footer Fix */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f5e6c8;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Fix heading spacing */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Ensure images are properly spaced */
+.page-container img {
+    display: block;
+    margin: 10px auto; /* Centers the images */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+

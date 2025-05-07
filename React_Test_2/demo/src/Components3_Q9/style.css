@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between links */
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 15px;
+}
+
+.nav-link:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
